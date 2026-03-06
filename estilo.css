@@ -1,3 +1,7 @@
-body {
-    background-color: hotpink;
+#button{
+    background-color: lightpink;
+    color: #fff;
+    width: 200px;
+    height 36px;
+    border-radius: 8px;
 }

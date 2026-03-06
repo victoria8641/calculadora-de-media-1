@@ -4,14 +4,14 @@
 
  const button = document.getElementById("button") 
 
- function CalcularMedia(){
+ function calcularMedia(){
    const valorNota1 = Number(nota1.value)
    const valorNota2 = Number(nota2.value)
 
-   const média = (valorNota1 + valorNota2)/2
+   const media = (valorNota1 + valorNota2)/2
 
    resultado.innerText = `A média é ${media.toFixed(2)}`
  }
  
- button.addEventListener("click", calcularMedia)
+button.addEventListener("click", calcularMedia)
 
